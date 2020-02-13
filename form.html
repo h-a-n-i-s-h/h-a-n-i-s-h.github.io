@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC>
+<html>
+    <head>
+      <meta charset="ul-8">
+     <link rel="stylesheet" href="style1.css">
+    <title>
+      hanish
+    </title>
+      <h1> submission form</h1>
+        <script type="text/javascript">
+            function validator(){
+                if(document.form_a.male.checked)
+                    alert("form filled successfully")
+                  
+                else if(document.form_a.female.checked)
+                    alert("form filled successful")
+                else
+                    alert("please select the checkbox")  
+                        
+                           
+            }
+            validator();
+            var x=document.forum_a.element[0].name; 
+            var x=document.forum_a.element[0].password;
+            document.write(x);
+            document.write(y);
+          </script>
+          
+    
+    <body>
+      <div id="big wrapper">
+        <form name="form_a">
+            <section id="name">
+            Username:<input type="text"/>
+            Password:<input type="password"/>
+        </section>
+        <section id="email">
+           email:<input type="email" name="email" />
+        </section>
+        <section >
+            mobile numer:<input type="text" name="mobile number" />
+        </section>
+        <section id="dob">
+            date of birth:<input type="date" name="dob" />
+        </section>
+        <section name-="checkbox">
+            male: <input type="checkbox" name ="male" />
+            female:<input type="checkbox" name="female" />
+        </section>
+
+          <input type="button" value="button" onclick="validator()" />
+          <input type="submit" value="submit!" />
+
+              </form>
+            </div> 
+    </body>
+<html>
+</doctype>
