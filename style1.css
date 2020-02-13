@@ -1,41 +1,57 @@
 *{
 	margin:0;
-	padding:0;
-}
+    padding:0;
+}  
+h1{ text-align:center;
+    -webkit-box-orient: vertical;
+    -webkit-box-aling:center;
+    width: 1000px;
+    margin:20px auto;
+    padding:5px;
+
+    font:bold;
+    border:2px solid black;}
+
 body{
-    -webkit-box-flex: 1;
-    
-    -webkit-transition: -webkit-transorm ;
-    background:rgb(135, 135, 230) ;
+    display:block;
+    -webkit-box-pack:center;
 }
 #big_wrapper{
-    width: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-aling:center;
+    width: 1000px;
+    margin:20px auto;
     padding:5px;
-    
-
+    border:2px solid black;
+ 
 }
-#form_1{
+#form_a{
     width:50px;
     margin:20px;
-    border-bottom: 2px solid black;
-    padding:10px;
+    border: 2px solid black;
+    padding:5px;
+    background:solid rgb(4, 4, 75);
 }
 section{
-    padding:20px;
+   
+    padding:10px;
+    font:bold 20px;
    -webkit-box-orient: vertical;
+   -webkit-box-align: center;
+   margin:2px solid black;
 }
-section.submission{
-    margin:8px;
-   clear: both;
+#password{
+    -webkit-box-orient:vertical;
+    
+    padding:10px;
+    -webkit-box-align: center;
 }
-h1{
-  
-background:rgb(154, 156, 154) ;
-color:red;
-margin:30px,auto;
-text-align: center;
-padding :10px;
-font:30px bold TimesNewRoman;
+#name{
+    -webkit-box-orient:vertical;
+    -webkit-box-align: center;
 }
 
+#submit_box{
+    -webkit-box-align: center;
+}
 
